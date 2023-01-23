@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #f6f6f6;
+}
+.container {
+    display: flex;
+}
+.main {
+    background-color: #ffffff;
+}
+.mainaside {
+    display: flex;
+    justify-content: space-around;
+    width: 97%;
+
+    /* gap: 20px; */
+}
+.mainaside1 h2 {
+    border: 2px solid rgb(240, 236, 236);
+    background-color: rgb(139, 225, 165);
+    margin: 4px;
+}
+.mainaside1 {
+    background: #f5fffa;
+    border: 2px solid #cef2e0;
+
+    width: 97%;
+    margin: 20px;
+}
+.mainaside2 h2 {
+    border: 1px solid rgb(138, 218, 249);
+    background-color: rgb(138, 218, 249);
+    width: 99%;
+    margin: 4px;
+}
+.mainaside2 {
+    background-color: #f5faff;
+    border: 2px solid #cedff2;
+    width: 50%;
+    margin: 20px;
+}
+.navitem2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 14px;
+    gap: 20px;
+}
+.rigtnav {
+    margin-left: 647px;
+    padding: 6px;
+}
+.mainheader {
+    text-align: center;
+    background: #f9f9f9;
+    border: 2px solid #ddd;
+    width: 95%;
+    height: 98px;
+    margin-top: 39px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .mainnav {
+    background-color: aliceblue;
+} */
+.mainaside1 img {
+    float: left;
+}
+.mainaside1 ul {
+    margin-left: 24px;
+}
+.mainaside2 img {
+    float: right;
+    width: 35%;
+}
+.mainaside p {
+    text-align: justify;
+}
+.mainaside2 ul {
+    margin-left: 21px;
+}
+.left1 {
+    border-right: 2px solid rgb(165, 200, 231);
+    padding: 2px;
+    width: 150px;
+}
+.nav {
+    width: 150px;
+}
+.nav a {
+    margin-left: 13px;
+
+    margin-bottom: 30px;
+}
+.left1 img {
+    width: 100px;
+}
+a {
+    text-decoration: none;
+}
+.mainnav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 2px;
+}
+.mainnav a {
+    margin-right: 6px;
+}
+.rigtnav {
+    text-align: end;
+    margin: 6px;
+}
+.rigtnav a {
+    margin-right: 7px;
+}
+.mainaside {
+    padding: 2px;
+}
+.aside1img {
+    float: right;
+}
+.mainaside1img2 {
+    float: right;
+}
+.navs {
+    background-color: aliceblue;
+}
+#sear {
+    width: 200px;
+}
